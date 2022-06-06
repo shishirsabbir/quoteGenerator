@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font-awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Quote Generator</title>
+</head>
+
+<body>
+    <header>
+
+        <!-- logo -->
+        <div class="logo-box">
+            <img class="logo_icon" src="quote_white.png" alt="Quote Generator Logo">
+            <h2 class="logo_text">Quote Generator</h2>
+        </div>
+
+        <!-- navigation menu -->
+        <div class="nav">
+            <div class="menu-item menu_tutorial">tutorial</div>
+            <div class="menu-item menu_about">about</div>
+        </div>
+
+    </header>
+
+    <main id="main">
+        <div class="quote_box">
+            <div class="quote_text">
+                <i class="fa-solid fa-quote-left quote_icon"></i>
+                <span id="quote"></span>
+            </div>
+            <div class="quote_author">
+                <span id="author"></span>
+            </div>
+
+
+            <div class="buttons">
+                <button class="twitter_btn" id="twitter" title="Tweet!">
+                    <i class="fa-brands fa-twitter"></i>
+                    Tweet
+                </button>
+
+                <!-- <button class="copy_btn" id="copy" title="Copy Quote">
+                    <i class="fa-solid fa-clipboard"></i>
+                    Copy
+                </button> -->
+
+                <button class="new-quote_btn" id="new-quote" title="Get Quote">New Quote</button>
+            </div>
+        </div>
+    </main>
+
+    <div class="loader" id="loader"></div>
+
+    <footer>
+        <span>&copy; <strong>shishirSabbir</strong>, Designed this page only for testing purposes.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
